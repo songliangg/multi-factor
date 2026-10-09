@@ -65,7 +65,7 @@ python main.py \
   --output gn_mftrigger5.csv
 ```
 
-Among `--algorithms`, `MF-RR` corresponds to RR-Set (Hypergrah), and `MF-IMM` corresponds to the Python implementation of IMM.
+Among `--algorithms`, `MF-RR` corresponds to RR-Set (Hypergraph), and `MF-IMM` corresponds to the Python implementation of IMM.
 
 Results are written to `gn_mftrigger5.csv` (and checkpointed after each budget `k`).
 
@@ -91,7 +91,7 @@ Multi-Factor-Model/
 │   ├── ca-netscience.txt
 │   ├── p2p-Gnutella08.txt
 │   └── soc-wiki-Vote.txt
-├── RR-Set (Hypergrah)/
+├── RR-Set (Hypergraph)/
 │   └── mf_rr.py
 ├── Growth RR-Set (IMM)/
 ├── Growth RR-Set (OPIM-C)/
@@ -114,7 +114,7 @@ Multi-Factor-Model/
   - `algo.py`: implementations of LFG, Greedy, MaxDegree, Random, and GWDM.
   - `ca-netscience.txt`, `p2p-Gnutella08.txt`, `soc-wiki-Vote.txt`: bundled benchmark graphs used in the experiments.
   - For the MC-based greedy algorithm, refer to Kempe et al.
-- `RR-Set (Hypergrah)/`: Python implementation of the multi-factor model based on RR-sets. Original source code: see Acknowledgments.
+- `RR-Set (Hypergraph)/`: Python implementation of the multi-factor model based on RR-sets. Original source code: see Acknowledgments.
 - `Growth RR-Set (IMM)/`: Contains only the modified parts relative to the original IMM source code, adapted for the multi-factor (all-factor) setting. Original source code: see Acknowledgments.
 - `Growth RR-Set (OPIM-C)/`: Contains only the modified parts relative to the original OPIM-C source code, adapted for the multi-factor (all-factor) setting. Original source code: see Acknowledgments.
 - `SAGraph-baseline/`: Baseline code adapted from the SAGraph framework.
