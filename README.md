@@ -119,7 +119,7 @@ Multi-Factor-Model/
 - `Growth RR-Set (OPIM-C)/`: Contains only the modified parts relative to the original OPIM-C source code, adapted for the multi-factor (all-factor) setting. Original source code: see Acknowledgments.
 - `SAGraph-baseline/`: Baseline code adapted from the SAGraph framework.
   - `nx.py`: Constructs network graphs, including multifactor social graphs based on user interactions and shared interests, and configures edge weights.
-  - `im.py`: Serves as the entry point for implementing influence maximization algorithms.
+  - `im.py`: Serves as the implementation entry point for influence maximization algorithms, including structural heuristics (Degree, Eigen-Centrality, Sigma, and PI), Monte Carlo greedy algorithms (Greedy, CELF, and CELF++), and RR-Sets based algorithms (RIS).
   - `IC.py` and `LT.py`: Implement Independent Cascade and Linear Threshold diffusion models to simulate influence propagation and measure user coverage.
 
 ### Multi-Factor Models
