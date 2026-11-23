@@ -118,8 +118,9 @@ Multi-Factor-Model/
 - `Growth RR-Set (IMM)/`: Contains only the modified parts relative to the original IMM source code, adapted for the multi-factor (all-factor) setting. Original source code: see Acknowledgments.
 - `Growth RR-Set (OPIM-C)/`: Contains only the modified parts relative to the original OPIM-C source code, adapted for the multi-factor (all-factor) setting. Original source code: see Acknowledgments.
 - `SAGraph-baseline/`: Baseline code adapted from the SAGraph framework.
-  - `IC.py`, `LT.py`, `im.py`, `nx.py`: supporting baseline implementations and utilities used for comparison on the Weibo dataset.
-
+  - `nx.py`: Constructs network graphs, including multifactor social graphs based on user interactions and shared interests, and configures edge weights.
+  - `im.py`: Serves as the entry point for implementing influence maximization algorithms.
+  - `IC.py` and `LT.py`: Implement Independent Cascade and Linear Threshold diffusion models to simulate influence propagation and measure user coverage.
 
 ### Multi-Factor Models
 
